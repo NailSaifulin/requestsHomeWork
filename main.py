@@ -43,7 +43,7 @@ if __name__ == '__main__':
     requests_hero()
 
     path_to_file = "netology/"
-    token = "y0_AgAAAAAWwN1SAADLWwAAAADNCwpLmGXcfpPCRw-9ujbOwyZ9dcrq8nY"
+    token = ""
     file_list = ["test.txt", "test1.txt", "test2.txt"]
     uploader = YaUploader(token)
     result = uploader.upload(path_to_file, file_list)
